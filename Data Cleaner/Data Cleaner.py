@@ -25,7 +25,7 @@ def remove_punctuation(words):
     return new_words
 
 def remove_numbers(words):
-    # Replace all interger occurrences in list of tokenized words with textual representation
+    # Remove all interger occurrences in list of tokenized words 
     p = inflect.engine()
     new_words = []
     for word in words:
