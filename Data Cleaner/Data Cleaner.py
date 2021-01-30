@@ -60,6 +60,7 @@ def normalize(words):
     words = remove_numbers(words)
     words = remove_stopwords(words)
     lemmas = lemmatize_verbs(words)
+    lemmas = [word for word in words if word]
     return lemmas
 
 
