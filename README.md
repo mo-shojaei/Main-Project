@@ -1,3 +1,6 @@
+# Table of Contents
+* [Mobile Application User Review Classification](#mobile-application-user-review-classification)
+
 # Mobile Application User Review Classification
 
 This project is a system for gathering reviews and classify them
