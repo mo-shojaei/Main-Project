@@ -16,7 +16,7 @@ def main(url, filename, ratings = [1,2,3,4,5]):
     count = 0
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(options=chrome_options, executable_path=r"C:\Users\Saad\Documents\chromedriver.exe")
+    driver = webdriver.Chrome(options=chrome_options, executable_path=r"C:\Users\mosho\Documents\chromedriver.exe")
     driver.get(url)
     time.sleep(3)
     for i in range(0,400):
