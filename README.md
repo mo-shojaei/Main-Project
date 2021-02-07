@@ -1,6 +1,6 @@
-# Project Title
+# Mobile Application User Review Classification
 
-One Paragraph of project description goes here
+This project is a system for gathering reviews and classify them
 
 ## Getting Started
 
