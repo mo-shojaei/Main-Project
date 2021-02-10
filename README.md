@@ -6,7 +6,14 @@
 This project is a system for gathering reviews and classify them
 
 ## Installation
-All parts of this system wrote in [Python](https://www.python.org/downloads/).
+All parts of this system is written in Python. Below are some tools that you can download before started with this system:
+| Name of the tools | 
+| ------------- |
+|[Python download](https://www.python.org/downloads/)|
+|[Visual Studio Code](https://code.visualstudio.com/download)|
+|[Jupyter Notebook](https://jupyter.org/install)|
+|[Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)|
+
 
 ### Prerequisites
 
