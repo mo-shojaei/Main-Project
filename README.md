@@ -5,9 +5,8 @@
 
 This project is a system for gathering reviews and classify them
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+## Installation
+All parts of this system wrote in [Python](https://www.python.org/downloads/).
 
 ### Prerequisites
 
