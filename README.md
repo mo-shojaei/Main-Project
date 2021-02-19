@@ -3,7 +3,8 @@
 
 # Mobile Application User Review Classification
 
-This project is a system for gathering reviews and classify them
+The popularity of mobile apps continues to grow over recent years. Mobile app stores (such as the Google Play Store and Apple's App Store) provide a unique user feedback mechanism to application developers through the possibility of posting application reviews in text format. A vast amount of user reviews for mobile applications make the usage of them for developers hard. Not all reviews are helpful to a developer for updating and making their app better. 
+The goal of this project is to gather user reviews, analyze them and separate them based on their usefulness for software developer. Until now, that this readme is writen, the process compeletely finished until the feature extraction.
 
 ## Installation
 All parts of this system is written in Python. Below are some tools that you can download before started with this system:
@@ -17,29 +18,17 @@ All parts of this system is written in Python. Below are some tools that you can
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+There are some libraries you need yo install before using each part of this system.
 
+To use the first crawler you need to install these libraries:
 ```
-Give examples
+pip install csv
+pip install codecs
+pip install selenium 
+pip install collections
+pip install time
+pip install re
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
