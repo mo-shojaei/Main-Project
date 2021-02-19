@@ -1,6 +1,7 @@
 # Table of Contents
 * [Mobile Application User Review Classification](#mobile-application-user-review-classification)
-
+* [Installation](#Installation)
+* [Prerequisites](#Prerequisites)
 # Mobile Application User Review Classification
 
 The popularity of mobile apps continues to grow over recent years. Mobile app stores (such as the Google Play Store and Apple's App Store) provide a unique user feedback mechanism to application developers through the possibility of posting application reviews in text format. A vast amount of user reviews for mobile applications make the usage of them for developers hard. Not all reviews are helpful to a developer for updating and making their app better. 
@@ -20,7 +21,7 @@ All parts of this system is written in Python. Below are some tools that you can
 
 There are some libraries you need yo install before using each part of this system.
 
-To use the first crawler you need to install these libraries:
+To use the first crawler, you need to install these libraries:
 ```
 pip install csv
 pip install codecs
@@ -28,6 +29,16 @@ pip install selenium
 pip install collections
 pip install time
 pip install re
+```
+To use the second crawler, which is my main crawler which I used to gather my dataset, you need to install these libraries:
+```
+pip install json
+pip install pandas
+pip install tqdm 
+pip install seaborn
+pip install matplotlib.pyplot
+pip install pygments
+pip install google_play_scraper
 ```
 
 ## Running the tests
