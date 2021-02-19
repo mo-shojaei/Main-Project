@@ -40,6 +40,13 @@ pip install matplotlib.pyplot
 pip install pygments
 pip install google_play_scraper
 ```
+To use the data cleaner, you need to install these libraries:
+```
+pip install nltk
+pip install inflect
+```
+There are a few other libraries that you need to be able to run the data cleaner, but you already installed them for the crawlers.
+After installing all these libraries, you are ready to use each part of this system.
 
 ## Running the tests
 
