@@ -2,6 +2,7 @@
 * [Mobile Application User Review Classification](#mobile-application-user-review-classification)
 * [Installation](#Installation)
 * [Prerequisites](#Prerequisites)
+* [Running the tests](#running-the-tests)
 # Mobile Application User Review Classification
 
 The popularity of mobile apps continues to grow over recent years. Mobile app stores (such as the Google Play Store and Apple's App Store) provide a unique user feedback mechanism to application developers through the possibility of posting application reviews in text format. A vast amount of user reviews for mobile applications make the usage of them for developers hard. Not all reviews are helpful to a developer for updating and making their app better. 
