@@ -50,24 +50,10 @@ After installing all these libraries, you are ready to use each part of this sys
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+There are some tests provided in Unit Test directory. Until now, the unit tests check to see if each function of data cleaner works in a right way. For each function, I write tests to check how does it respond in differenet situation. To run them you just need to install one library and add the data cleaner directory to your PYTHONPATH:
 ```
-Give an example
+pip install unittest
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
