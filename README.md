@@ -8,6 +8,7 @@
 The popularity of mobile apps continues to grow over recent years. Mobile app stores (such as the Google Play Store and Apple's App Store) provide a unique user feedback mechanism to application developers through the possibility of posting application reviews in text format. A vast amount of user reviews for mobile applications make the usage of them for developers hard. Not all reviews are helpful to a developer for updating and making their app better. 
 The goal of this project is to gather user reviews, analyze them and separate them based on their usefulness for software developer. Until now, that this readme is writen, the process compeletely finished until the feature extraction.
 
+
 ## Installation
 All parts of this system is written in Python. Below are some tools that you can download before started with this system:
 | Name of the tools | 
@@ -49,15 +50,23 @@ pip install inflect
 There are a few other libraries that you need to be able to run the data cleaner, but you already installed them for the crawlers.
 After installing all these libraries, you are ready to use each part of this system.
 
+To use the BERT feature extraction you need to install these libraries:
+pip install math
+pip install tensorflow
+pip install tensorflow_hub
+pip install bert-for-tf2
+pip install sentencepiece
+
+To use the TF-IDF, for now you need a Microsoft Azure Machine Learning Studio Account, then with the link below you can use model and make diffrences in it:
+https://gallery.cortanaintelligence.com/Experiment/TF-IDF-Feature-Extraction-for-Reviews-Classification-2
+
+
 ## Running the tests
 
 There are some tests provided in Unit Test directory. Until now, the unit tests check to see if each function of data cleaner works in a right way. For each function, I write tests to check how does it respond in differenet situation. To run them you just need to install one library and add the data cleaner directory to your PYTHONPATH:
 ```
 pip install unittest
 ```
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 
 ## Authors
