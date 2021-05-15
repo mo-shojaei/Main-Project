@@ -6,9 +6,14 @@
 # Mobile Application User Review Classification
 
 The popularity of mobile apps continues to grow over recent years. Mobile app stores (such as the Google Play Store and Apple's App Store) provide a unique user feedback mechanism to application developers through the possibility of posting application reviews in text format. A vast amount of user reviews for mobile applications make the usage of them for developers hard. Not all reviews are helpful to a developer for updating and making their app better. 
-The goal of this project is to gather user reviews, analyze them and separate them based on their usefulness for software developer. Until now, that this readme is writen, the process compeletely finished until the feature extraction.
+The goal of this project is to gather user reviews, analyze them and separate them based on their usefulness for software developer. Until now, that this readme is writen, the process compeletely finished until the binary classification to find the useful reviews.
 
+Here you can see the domain model for this project:
 ![Screenshot](Capture.PNG)
+
+And here is the architecture:
+![Screenshot](Architecture (1).png)
+
 
 ## Installation
 All parts of this system is written in Python. Below are some tools that you can download before started with this system:
