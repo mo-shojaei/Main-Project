@@ -12,7 +12,7 @@ Here you can see the domain model for this project:
 ![Screenshot](Capture.PNG)
 
 And here is the architecture:
-![Screenshot](Architecture (1).png)
+![Screenshot](Architecture.png)
 
 
 ## Installation
